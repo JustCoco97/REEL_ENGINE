@@ -1,0 +1,45 @@
+# Project backups and generated media/work files
+/backups/
+/temp/
+/logs/
+
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and credential-bearing files
+.env
+.env.*
+*.env
+*credentials*
+*secrets*
+*.secret
+*.token
+
+# Local machine configuration
+*.local
+*.local.*
+config.local.*
+
+# Temporary/editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+.idea/
+.vscode/.cache/
+build/
+dist/
